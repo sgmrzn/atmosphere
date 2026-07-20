@@ -1,0 +1,12 @@
+# Публичный репозиторий содержит только готовую публикационную страницу.
+# Исходники, данные, документы и служебные материалы остаются локально.
+*
+!.gitignore
+!.github/
+!.github/workflows/
+!.github/workflows/deploy-pages.yml
+!github-pages-real/
+!github-pages-real/**
+
+# Служебный workflow, созданный внутри артефакта сборки, не публикуется.
+github-pages-real/.github/
